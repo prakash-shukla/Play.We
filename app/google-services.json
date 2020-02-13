@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681052925187",
+    "firebase_url": "https://playwe-a9941.firebaseio.com",
+    "project_id": "playwe-a9941",
+    "storage_bucket": "playwe-a9941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681052925187:android:cd51955fc6eed7b79b4d36",
+        "android_client_info": {
+          "package_name": "www.nilraasports.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681052925187-v0s9uhh14g4g1bcmprf8lsu1g02le2v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.nilraasports.com",
+            "certificate_hash": "9031ba0cba2066a63fb1a9c361c56cf2e9da0710"
+          }
+        },
+        {
+          "client_id": "681052925187-e4pce91nblkmj80bqm2o7cq0qej7mbrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcoJeM1HsW1Wreg2UGrOtsd8VoJKTrjAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681052925187-e4pce91nblkmj80bqm2o7cq0qej7mbrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

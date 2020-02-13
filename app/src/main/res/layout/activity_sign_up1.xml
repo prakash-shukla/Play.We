@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backreg"
+    tools:context=".SignUp1">
+
+    <LinearLayout
+        android:layout_width="223dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/top" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="566dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="129dp"
+        android:orientation="vertical" >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dp"
+            android:layout_centerHorizontal="true" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:layout_margin="10dp"
+            app:boxCornerRadiusTopStart="50dp"
+            app:boxCornerRadiusTopEnd="50dp"
+            app:boxCornerRadiusBottomStart="50dp"
+            app:boxCornerRadiusBottomEnd="50dp"
+            app:boxStrokeColor="@color/boxboder"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signupname"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:focusableInTouchMode="false"
+            android:layout_margin="10dp"
+            app:boxCornerRadiusTopStart="50dp"
+            app:boxCornerRadiusTopEnd="50dp"
+            app:boxCornerRadiusBottomStart="50dp"
+            app:boxCornerRadiusBottomEnd="50dp"
+            app:boxStrokeColor="@color/boxboder"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signupemail"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passwoard"
+            android:focusableInTouchMode="false"
+            android:layout_margin="10dp"
+            app:boxCornerRadiusTopStart="50dp"
+            app:boxCornerRadiusTopEnd="50dp"
+            app:boxCornerRadiusBottomStart="50dp"
+            app:boxCornerRadiusBottomEnd="50dp"
+            app:boxStrokeColor="@color/boxboder"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signuppass"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="0dp"
+              android:layout_weight="2"
+              android:layout_height="wrap_content"
+              android:focusableInTouchMode="false"
+              android:hint="Date Of Birth"
+              app:boxCornerRadiusTopStart="50dp"
+              app:boxCornerRadiusTopEnd="50dp"
+              android:layout_margin="10dp"
+              app:boxCornerRadiusBottomStart="50dp"
+              app:boxCornerRadiusBottomEnd="50dp"
+              app:boxStrokeColor="@color/boxboder"
+
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+              <com.google.android.material.textfield.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/signupdob"
+                  android:inputType="number"
+
+                  />
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:hint="Gender "
+              app:boxCornerRadiusTopStart="50dp"
+              app:boxCornerRadiusTopEnd="50dp"
+              app:boxCornerRadiusBottomStart="50dp"
+              android:focusableInTouchMode="false"
+              app:boxCornerRadiusBottomEnd="50dp"
+              android:layout_margin="10dp"
+              app:boxStrokeColor="@color/boxboder"
+
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+              <AutoCompleteTextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/gender"
+                  android:ems="10"
+                  android:text="">
+
+                  <requestFocus />
+              </AutoCompleteTextView>
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+
+      </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/next"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/next"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
