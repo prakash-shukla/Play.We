@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Main2Activity extends AppCompatActivity {
-
+    /**
+     * User interface is done
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +19,7 @@ public class Main2Activity extends AppCompatActivity {
 
     public void signUp(View view) {
         Intent intent=new Intent(Main2Activity.this,SignUp1.class);
+
         startActivity(intent);
 
     }
